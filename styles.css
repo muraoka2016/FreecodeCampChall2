@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    background-color:#F0F0F0;
+}
+
+#title{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#header-description{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#img-div{
+    background-color: white;
+    margin: 5px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#image{
+    max-width: 800px;
+    max-height: 500px;
+    margin-top: 20px;
+    
+}
+
+#img-caption{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#title-tribute-section{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+}
+
+#tribute-info {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li {
+        font-size: 18px;
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        margin-bottom: 15px;
+        line-height: 1.5;
+}
+
+.year{
+    font-weight: bold;
+}
+
+#link-description{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+a{
+    text-decoration: none;
+    color: #003366;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #003366;
+}
